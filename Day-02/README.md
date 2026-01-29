@@ -30,7 +30,9 @@
 
 . Used by companies to identify customers who may leave and take actions to retain them.
 
-. Real-life use:  1) Telecom companies 
+. Real-life use:  
+
+                  1) Telecom companies 
                      // Predict which customer may stop using SIM, give special offeres and discounts, Improve network or plan
                   
                   2)  OTT Platforms    

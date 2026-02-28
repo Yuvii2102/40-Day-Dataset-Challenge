@@ -1,4 +1,4 @@
-                                       🎓 Day 14 – University Student Performance & Habits Dataset
+                                       🎓 Day 14 – Student-screen-time-vs-cgpa-analysis Dataset
 
 
 ✨ Dataset Source

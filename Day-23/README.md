@@ -1,62 +1,131 @@
-🛒 Day 13 – Amazon Recommendation System Dataset
+                                             ✈️ Day 23 – Airline Passenger Satisfaction Prediction
+
 ✨ Dataset Source
 
-https://amanxai.com/2021/03/23/amazon-recommendation-system-using-python/
+https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction
+
+---
 
 📌 Dataset Description
 
-This dataset contains information about users, products, and ratings. It helps us build a system that recommends products to users based on their past activity.
+This dataset contains airline passenger survey data.
+
+It helps us understand:
+
+What makes passengers satisfied?
+What makes them unhappy?
+
+Goal:
+Predict passenger satisfaction.
+
+---
 
 📊 Type of Data
 
-Structured data (user and product interaction data)
+Structured dataset  
+Numbers + categories  
+
+Large dataset (~100k+ records)
+
+---
 
 🤖 ML Concept
 
-Machine Learning – Recommendation System
-Suggesting products based on user behavior.
+Machine Learning – Classification  
 
-❓ Problem Statement
+We predict:
 
-Can we recommend products to users by analyzing their ratings and activity?
+Satisfied  
+Neutral or Dissatisfied  
 
-📥 Input
+---
 
-User ID
-Product ID
-Ratings
-Time of interaction
+🎯 Target Column
+
+Satisfaction
+
+---
+
+📥 Input Features (Simple Meaning)
+
+Passenger Details:
+- Gender  
+- Age  
+- Customer Type (Loyal / Disloyal)  
+- Type of Travel (Business / Personal)  
+- Class (Business / Eco / Eco Plus)  
+
+Flight Details:
+- Flight Distance  
+- Departure Delay  
+- Arrival Delay  
+
+Service Ratings (0–5 scale):
+- Inflight wifi  
+- Seat comfort  
+- Food and drink  
+- Online boarding  
+- Inflight entertainment  
+- On-board service  
+- Leg room  
+- Baggage handling  
+- Cleanliness  
+- Check-in service  
+- Gate location  
+- Booking experience  
+- Time convenience  
+
+---
+
 📤 Output
 
-Recommended products for users
+Prediction:
+- Satisfied  
+- Not Satisfied  
+
+---
+
 🧠 What We Learned
 
-Users with similar interests like similar products
-Ratings show user preferences
-Past activity helps predict future choices
-Data can be used to personalize recommendations
-🔗 Correlation Insight
+- Seat comfort strongly affects satisfaction  
+- Cleanliness is very important  
+- On-time flights increase satisfaction  
+- Loyal customers are usually more satisfied  
+- Business class passengers are more satisfied  
+- Good wifi and entertainment improve experience  
 
-User behavior ↔ product preference
-Ratings ↔ recommendation quality
-📈 Visualization Ideas
+---
 
-Ratings distribution chart
-Most liked products graph
-User activity heatmap
+📈 Simple Analysis Ideas
+
+- Class vs Satisfaction  
+- Delay vs Satisfaction  
+- Seat comfort vs Satisfaction  
+- Feature importance chart  
+- Confusion matrix  
+
+---
+
 🌍 Real-Life Use
 
 Used in:
 
-Amazon product recommendations
-Netflix/YouTube suggestions
-Online shopping personalization
+- Airline customer feedback systems  
+- Service improvement planning  
+- Business strategy  
+- Customer retention analysis  
+
+---
+
 🎓 Learning Outcome
 
 This project helped understand:
 
-✔ How recommendation systems work
-✔ User behavior analysis
-✔ Basic ML personalization
+✔ Customer behavior analysis  
+✔ Classification modeling  
+✔ Service quality impact  
+✔ Business data analysis  
 
-⭐ This project shows how machine learning can suggest products based on user activity.
+---
+
+⭐ This project shows how machine learning can help airlines improve customer satisfaction.

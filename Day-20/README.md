@@ -1,55 +1,139 @@
-Introduction to Spring Boot for Apache Kafka
-Although Spring has been around for more than a decade, it has kept up with the times and embraces the best modern, cloud-native technologies. For example, it supports a modern version of Java and has cross-language options, such as a Kotlin integration. Spring supports the requirements of the Twelve-Factor App manifesto, meaning, for example, that you can move your applications between different environments without changing the code. And Spring also has a large community, with an extensive number of Java and JVM developers currently using it.
+                                            🏏 Day 20 – T20 World Cup 2026 Match Prediction Dataset
 
-Adding the Spring Boot framework to Spring reduces development time and increases overall productivity. Although its opinionated configurations are actually what save you time, Spring Boot also provides the ability to extend or modify certain options if you need to customize or if its opinions don't fit with the requirements of your system.
+✨ Dataset Source
 
-And Spring Boot comes with a variety of included "batteries,” for example, integrations with databases and messaging systems are included. In fact, virtually any data source you have in a modern application landscape can interact with your Spring code.
+https://www.kaggle.com/datasets/vishardmehta/t20-world-cup-2026-match-dataset
 
-This course focuses on the Spring for Apache Kafka project, which extends opinionated options for combining Spring Boot and Kafka. Spring for Apache Kafka is a top-level project that applies the Spring community's existing practices to the Kafka ecosystem. So, for example, the JmsTemplate used with the Java Message Service is manifested in KafkaTemplate, a thin layer on top of the Kafka producer API. Spring for Apache Kafka also has options that ease the configuration of Kafka with Spring Boot, and you can access them programmatically or declaratively using property files.
+---
 
-Generally, Spring for Apache Kafka provides features that abstract away infrastructure code so you can focus on your programming logic. In addition to the KafkaTemplate mentioned above, it provides MessageListenerContainer, which allows Spring to handle low-level communications, including retries and serialization. Spring for Apache Kafka also extends @KafkaListener, an annotation for POJOs that lets you convert a method into a Kafka consumer, and TopicBuilder, which simplifies topic configuration.
+📌 Dataset Description
 
-But in the end, should you use Spring or no framework at all? It's really a question about your productivity and where you want to spend your time. Spring has built-in ways of configuring applications, and because they are opinionated, they are easy to communicate with other Spring developers.
+This dataset contains 600 simulated match-level records for the ICC Men’s T20 World Cup 2026.
 
-The goal of this course is to give you th
-Introduction to Spring Boot for Apache Kafka
-Although Spring has been around for more than a decade, it has kept up with the times and embraces the best modern, cloud-native technologies. For example, it supports a modern version of Java and has cross-language options, such as a Kotlin integration. Spring supports the requirements of the Twelve-Factor App manifesto, meaning, for example, that you can move your applications between different environments without changing the code. And Spring also has a large community, with an extensive number of Java and JVM developers currently using it.
+Each row represents a single T20 match and includes realistic features such as:
 
-Adding the Spring Boot framework to Spring reduces development time and increases overall productivity. Although its opinionated configurations are actually what save you time, Spring Boot also provides the ability to extend or modify certain options if you need to customize or if its opinions don't fit with the requirements of your system.
+- ICC team rankings  
+- Recent team form  
+- Head-to-head history  
+- Pitch conditions  
+- Toss results  
+- Venue home advantage  
+- Simulated match winner  
 
-And Spring Boot comes with a variety of included "batteries,” for example, integrations with databases and messaging systems are included. In fact, virtually any data source you have in a modern application landscape can interact with your Spring code.
+The dataset is synthetic and created for machine learning and sports analytics practice.
 
-This course focuses on the Spring for Apache Kafka project, which extends opinionated options for combining Spring Boot and Kafka. Spring for Apache Kafka is a top-level project that applies the Spring community's existing practices to the Kafka ecosystem. So, for example, the JmsTemplate used with the Java Message Service is manifested in KafkaTemplate, a thin layer on top of the Kafka producer API. Spring for Apache Kafka also has options that ease the configuration of Kafka with Spring Boot, and you can access them programmatically or declaratively using property files.
+---
 
-Generally, Spring for Apache Kafka provides features that abstract away infrastructure code so you can focus on your programming logic. In addition to the KafkaTemplate mentioned above, it provides MessageListenerContainer, which allows Spring to handle low-level communications, including retries and serialization. Spring for Apache Kafka also extends @KafkaListener, an annotation for POJOs that lets you convert a method into a Kafka consumer, and TopicBuilder, which simplifies topic configuration.
+📊 Type of Data
 
-But in the end, should you use Spring or no framework at all? It's really a question about your productivity and where you want to spend your time. Spring has built-in ways of configuring applications, and because they are opinionated, they are easy to communicate with other Spring developers.
+Structured sports analytics dataset  
+Numerical + Categorical features  
 
-The goal of this course is to give you th
-Introduction to Spring Boot for Apache Kafka
-Although Spring has been around for more than a decade, it has kept up with the times and embraces the best modern, cloud-native technologies. For example, it supports a modern version of Java and has cross-language options, such as a Kotlin integration. Spring supports the requirements of the Twelve-Factor App manifesto, meaning, for example, that you can move your applications between different environments without changing the code. And Spring also has a large community, with an extensive number of Java and JVM developers currently using it.
+Total Matches: 600  
 
-Adding the Spring Boot framework to Spring reduces development time and increases overall productivity. Although its opinionated configurations are actually what save you time, Spring Boot also provides the ability to extend or modify certain options if you need to customize or if its opinions don't fit with the requirements of your system.
+---
 
-And Spring Boot comes with a variety of included "batteries,” for example, integrations with databases and messaging systems are included. In fact, virtually any data source you have in a modern application landscape can interact with your Spring code.
+🤖 ML Concept
 
-This course focuses on the Spring for Apache Kafka project, which extends opinionated options for combining Spring Boot and Kafka. Spring for Apache Kafka is a top-level project that applies the Spring community's existing practices to the Kafka ecosystem. So, for example, the JmsTemplate used with the Java Message Service is manifested in KafkaTemplate, a thin layer on top of the Kafka producer API. Spring for Apache Kafka also has options that ease the configuration of Kafka with Spring Boot, and you can access them programmatically or declaratively using property files.
+Primary Task → Classification (Predict Match Winner)  
+Secondary Task → Regression (Predict Total Match Score)
 
-Generally, Spring for Apache Kafka provides features that abstract away infrastructure code so you can focus on your programming logic. In addition to the KafkaTemplate mentioned above, it provides MessageListenerContainer, which allows Spring to handle low-level communications, including retries and serialization. Spring for Apache Kafka also extends @KafkaListener, an annotation for POJOs that lets you convert a method into a Kafka consumer, and TopicBuilder, which simplifies topic configuration.
+---
 
-But in the end, should you use Spring or no framework at all? It's really a question about your productivity and where you want to spend your time. Spring has built-in ways of configuring applications, and because they are opinionated, they are easy to communicate with other Spring developers.
+🎯 Target Variables
 
-The goal of this course is to give you thIntroduction to Spring Boot for Apache Kafka
-Although Spring has been around for more than a decade, it has kept up with the times and embraces the best modern, cloud-native technologies. For example, it supports a modern version of Java and has cross-language options, such as a Kotlin integration. Spring supports the requirements of the Twelve-Factor App manifesto, meaning, for example, that you can move your applications between different environments without changing the code. And Spring also has a large community, with an extensive number of Java and JVM developers currently using it.
+1️⃣ Winner (Team_A or Team_B)  
+2️⃣ Match_Total (Total runs scored in match)
 
-Adding the Spring Boot framework to Spring reduces development time and increases overall productivity. Although its opinionated configurations are actually what save you time, Spring Boot also provides the ability to extend or modify certain options if you need to customize or if its opinions don't fit with the requirements of your system.
+---
 
-And Spring Boot comes with a variety of included "batteries,” for example, integrations with databases and messaging systems are included. In fact, virtually any data source you have in a modern application landscape can interact with your Spring code.
+📥 Input Features
 
-This course focuses on the Spring for Apache Kafka project, which extends opinionated options for combining Spring Boot and Kafka. Spring for Apache Kafka is a top-level project that applies the Spring community's existing practices to the Kafka ecosystem. So, for example, the JmsTemplate used with the Java Message Service is manifested in KafkaTemplate, a thin layer on top of the Kafka producer API. Spring for Apache Kafka also has options that ease the configuration of Kafka with Spring Boot, and you can access them programmatically or declaratively using property files.
+🏟 Match Info:
+- Venue  
+- Stage (Group / Super8 / SemiFinal / Final)  
 
-Generally, Spring for Apache Kafka provides features that abstract away infrastructure code so you can focus on your programming logic. In addition to the KafkaTemplate mentioned above, it provides MessageListenerContainer, which allows Spring to handle low-level communications, including retries and serialization. Spring for Apache Kafka also extends @KafkaListener, an annotation for POJOs that lets you convert a method into a Kafka consumer, and TopicBuilder, which simplifies topic configuration.
+🧠 Team Strength:
+- Team_A_Ranking  
+- Team_B_Ranking  
+- Team_A_Form  
+- Team_B_Form  
+- HeadToHead_A_Wins  
+- HeadToHead_B_Wins  
+- Team_A_Tech_Index  
+- Team_B_Tech_Index  
 
-But in the end, should you use Spring or no framework at all? It's really a question about your productivity and where you want to spend your time. Spring has built-in ways of configuring applications, and because they are opinionated, they are easy to communicate with other Spring developers.
+🏟 Venue Conditions:
+- Venue_HomeAdvantage_A  
+- Venue_HomeAdvantage_B  
+- Pitch_Type  
+- Avg_T20_Score_Venue  
 
-The goal of this course is to give you th
+🎯 Match Dynamics:
+- Toss_Winner  
+- Toss_Decision  
+
+---
+
+📤 Output
+
+- Predicted Match Winner  
+- Predicted Total Runs  
+
+---
+
+🧠 What We Learned
+
+- Lower ICC ranking (stronger team) increases win probability  
+- Recent form strongly impacts outcome  
+- Home advantage slightly boosts winning chance  
+- Toss decision affects match total  
+- Pitch type influences scoring pattern  
+
+---
+
+🔗 Correlation Insights
+
+- Ranking Difference ↔ Winning Probability  
+- Team Form ↔ Match Outcome  
+- Pitch Type ↔ Match Total  
+- Toss Winner ↔ Match Result  
+- Home Advantage ↔ Win Rate  
+
+---
+
+📈 Visualization Ideas
+
+- Win probability vs Ranking difference  
+- Venue-wise average match total  
+- Toss impact analysis  
+- Feature importance chart  
+- Correlation heatmap  
+
+---
+
+🌍 Real-Life Use
+
+Used in:
+
+- Sports analytics  
+- Match outcome prediction  
+- Betting probability modeling (educational)  
+- Tournament simulation  
+- Performance analysis  
+
+---
+
+🎓 Learning Outcome
+
+This project helped understand:
+
+✔ Classification modeling  
+✔ Sports analytics concepts  
+✔ Feature engineering  
+✔ Probabilistic modeling  
+✔ Multi-feature impact analysis  
+
+---
+
+⭐ This project demonstrates how machine learning can analyze team strength, venue effects, and match dynamics to predict cricket match outcomes.

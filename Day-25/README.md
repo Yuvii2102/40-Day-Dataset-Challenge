@@ -1,4 +1,4 @@
-                                                  🦠 Day 25 – COVID-19 Symptoms Prediction
+                                                🦠 Day 25 – COVID-19 Symptoms Prediction
 
 ✨ Datset Source
 

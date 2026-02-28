@@ -43,7 +43,7 @@ HeartDisease
 
 ---
 
-📥 Input Features (Simple Meaning)
+📥 Input Features with simple meanings
 
 - Age → Person’s age  
 - Sex → Male or Female  

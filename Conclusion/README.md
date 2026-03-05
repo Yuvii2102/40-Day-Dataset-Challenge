@@ -78,6 +78,8 @@ It includes:
 Example:
 Predicting sleep quality using study hours, screen time, and caffeine intake.
 
+This 30-day dataset challenge helped me build consistency, improve my analytical thinking, and strengthen my foundation in data analysis and machine learning
+
 ---
 
 ⭐ These skills helped build a strong foundation in data analysis and machine learning while working with real-world datasets.
